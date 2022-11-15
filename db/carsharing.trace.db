@@ -1,0 +1,184 @@
+2022-11-03 13:51:13 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2022-11-07 09:44:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-07 09:44:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-07 09:45:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT NOT NULL, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-07 09:45:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-07 14:20:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT NOT NULL, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-07 14:20:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-07 14:21:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT NOT NULL, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-07 14:21:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-07 14:21:11 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2022-11-08 13:03:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-08 13:03:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 13:03:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT NOT NULL, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-08 13:03:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 13:04:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+CREATE TABLE IF NOT EXISTS car (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR NOT NULL UNIQUE, company_id INT NOT NULL, FOREIGN KEY (company_id) REFERENCES company(id)) [42102-200]
+2022-11-08 13:31:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:04:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:07:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:07:06 jdbc[9]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2022-11-08 14:15:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:19:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:33:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:33:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-08 14:33:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:33:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:34:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:34:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-08 14:34:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:34:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:36:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:36:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-08 14:36:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:36:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:36:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-08 14:36:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-08 14:36:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-08 14:36:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-09 10:53:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-09 10:53:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-09 10:53:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+create table if not exists car (id int auto_increment primary key, name varchar not null unique, company_id int not null, foreign key (company_id) references company (id)); [42102-200]
+2022-11-09 10:53:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:25:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:25:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 14:25:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 14:35:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:35:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 14:35:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 14:36:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:36:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 14:36:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 14:38:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:38:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 14:38:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 14:46:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 14:46:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 14:46:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 14:46:12 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from customer where name = [*]'First customer"; SQL statement:
+select * from customer where name = 'First customer [42000-200]
+2022-11-14 15:05:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CAR" not found; SQL statement:
+DELETE FROM car [42102-200]
+2022-11-14 15:05:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPANY" not found; SQL statement:
+DELETE FROM company [42102-200]
+2022-11-14 15:05:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CUSTOMER" not found; SQL statement:
+DELETE FROM customer [42102-200]
+2022-11-14 15:05:55 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from customer where name = [*]'First customer"; SQL statement:
+select * from customer where name = 'First customer [42000-200]
+2022-11-15 11:20:57 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
+2022-11-15 11:22:39 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-200]
